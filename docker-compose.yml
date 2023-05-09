@@ -43,7 +43,7 @@ services:
             context: ./docker/php
             dockerfile: Dockerfile
         ports:
-            - "9000:9000"
+            - "9002:9000"
         volumes: 
             - ./:/var/www/html
         networks: 
